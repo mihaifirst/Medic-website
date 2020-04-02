@@ -1,12 +1,15 @@
 .mw-navbar {
-    background: #0E153A;
+    background: var(--dark-color);
     height: 50px;
+}
+.mw-navbar > .mw-navbar-container {
+    width: 900px;
+    margin: 0 auto;
 }
 
 .mw-navbar > .mw-navbar-container > .mw-logo-area {
     display: inline-block;
     height: 40px;
-    padding-left: 200px;
 }
 
 .mw-navbar > .mw-navbar-container > .mw-logo-area > img {
@@ -17,7 +20,6 @@
 .mw-navbar > .mw-navbar-container > .mw-menu-navbar {
     float: right;
     margin-top: 13px;
-    padding-right: 250px;
 }
 
 .mw-navbar > .mw-navbar-container > .mw-menu-navbar > a {
@@ -25,9 +27,8 @@
 }
 
 .mw-navbar > .mw-navbar-container > .mw-menu-navbar > a > span {
-    color: #E5E5E5;
+    color: var( --text-light);
     margin-left: 20px;
-    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;

@@ -1,3 +1,9 @@
+:root {
+  --color-1: #17B978;
+  --color-2: #3D5AF1;
+  --text-light: #E5E5E5;
+  --dark-color: #0E153A;
+}
 body {
     margin: 0;
     padding: 0;
@@ -8,8 +14,7 @@ body {
 
 .mw-background-text {
     font-size: 100px;
-    padding: 300px 200px 0 200px;
+    padding: 300px 200px 0;
     font-weight: 300;
     font-style: normal;
-    color: #000000;
 }
