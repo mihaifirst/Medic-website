@@ -1,0 +1,35 @@
+.mw-navbar {
+    background: var(--dark-color);
+    height: 50px;
+}
+.mw-navbar > .mw-navbar-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.mw-navbar > .mw-navbar-container > .mw-logo-area {
+    display: inline-block;
+    height: 40px;
+}
+
+.mw-navbar > .mw-navbar-container > .mw-logo-area > img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.mw-navbar > .mw-navbar-container > .mw-menu-navbar {
+    float: right;
+    margin-top: 13px;
+}
+
+.mw-navbar > .mw-navbar-container > .mw-menu-navbar > a {
+    text-decoration: none;
+}
+
+.mw-navbar > .mw-navbar-container > .mw-menu-navbar > a > span {
+    color: var( --text-light);
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
