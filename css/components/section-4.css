@@ -32,19 +32,18 @@
     width: 25%;
     display: inline-block;
     height: 100%;
-    box-sizing: border-box;
     font-size: 0;
   }
   
   
   .mw-section-4-profiles-column {
-    float:left
+    float: left;
   }
+
   .mw-section-4-profiles-column:nth-child(2) > img,
-  .mw-section-4-profiles-column:nth-child(3) > img
-  {
+  .mw-section-4-profiles-column:nth-child(3) > img {
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
   }
   
   .mw-section-4-profiles-column:nth-child(2) > img {
