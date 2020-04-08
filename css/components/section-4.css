@@ -1,0 +1,107 @@
+
+.mw-section-4 {
+    height: 700px;
+    background-color: white;
+    padding: 100px 200px;
+  }
+  
+  .mw-section-4 > .mw-section-4-header {
+    text-align: center;
+  }
+  
+  .mw-section-4-header > span {
+    padding-bottom: 20px;
+    display: block;
+  }
+  
+  .mw-section-4-header > span:nth-child(1) {
+    font-size: 45px;
+  }
+  
+  .mw-section-4-header > span:nth-child(3) {
+    text-decoration: underline;
+  }
+  
+  .mw-section-4-profiles {
+    height: 30%;
+    margin-top: 100px;
+    width: 100%;
+  }
+  
+  .mw-section-4-profiles-column {
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 0;
+  }
+  
+  
+  .mw-section-4-profiles-column {
+    float:left
+  }
+  .mw-section-4-profiles-column:nth-child(2) > img,
+  .mw-section-4-profiles-column:nth-child(3) > img
+  {
+    display: block;
+    margin:0 auto;
+  }
+  
+  .mw-section-4-profiles-column:nth-child(2) > img {
+    transform: translateX(-15.5%); 
+  }
+  
+  .mw-section-4-profiles-column:nth-child(3) > img {
+    transform: translateX(15.5%);
+   }
+  
+  .mw-section-4-profiles-column > img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  .mw-section-4-profiles-column:last-child {
+    text-align: right;
+  }
+  
+  .section-4-text {
+    height: 45%;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .mw-section-4-profiles-column:nth-child(4) > .section-4-text {
+    float: right;
+  
+  }
+  
+  .mw-section-4-profiles-column:nth-child(2) > .section-4-text {
+    margin-left: 40px;
+  }
+  
+  .mw-section-4-profiles-column:nth-child(3) > .section-4-text {
+    margin-left: 77px;
+  }
+  
+  .section-4-text > .text-name {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+  
+  .section-4-text > .text-country {
+    font-size: 14px;
+  }
+  
+  
+  .section-4-text > .text-donated {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  
+  .section-4-text > .text-sum {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-1);
+  }
+  
