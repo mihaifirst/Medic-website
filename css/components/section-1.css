@@ -3,7 +3,7 @@
     position: relative;
   }
   
-  .mw-background {
+  .mw-s1-background {
     background: url('/assets/images/intro.jpg');
     background-repeat: no-repeat;
     background-position:center center;
@@ -14,7 +14,7 @@
     opacity: 0.6;
   }
   
-  .mw-header {
+  .mw-s1-header {
     position: absolute;
       top: 50%;
       left: 15%;

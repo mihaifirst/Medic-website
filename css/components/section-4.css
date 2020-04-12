@@ -1,106 +1,105 @@
 
-.section-4 {
+#section-4 {
     height: 600px;
     background-color: white;
     padding: 0 200px;
   }
   
-  .section-4 > .section-4-header {
+.mw-s4-header {
     text-align: center;
   }
   
-  .section-4-header > span {
+.mw-s4-header > span {
     padding-bottom: 20px;
     display: block;
-  }
+}
   
-  .section-4-header > span:nth-child(1) {
+.mw-s4-header > span:nth-child(1) {
     font-size: 45px;
-  }
+}
   
-  .section-4-header > span:nth-child(3) {
+.mw-s4-header > span:nth-child(3) {
     text-decoration: underline;
-  }
+}
   
-  .section-4-profiles {
+.mw-s4-profiles {
     height: 30%;
     margin-top: 100px;
     width: 100%;
-  }
+}
   
-  .section-4-profiles-column {
+.mw-s4-profiles-column {
     width: 25%;
     display: inline-block;
     height: 100%;
     font-size: 0;
-  }
+}
   
   
-  .section-4-profiles-column {
+.mw-s4-profiles-column {
     float: left;
-  }
+}
 
-  .section-4-profiles-column:nth-child(2) > img,
-  .section-4-profiles-column:nth-child(3) > img {
+.mw-s4-profiles-column:nth-child(2) > img,
+.mw-s4-profiles-column:nth-child(3) > img {
     display: block;
     margin: 0 auto;
-  }
+}
   
-  .section-4-profiles-column:nth-child(2) > img {
+.mw-s4-profiles-column:nth-child(2) > img {
     transform: translateX(-15.5%); 
-  }
+}
   
-  .section-4-profiles-column:nth-child(3) > img {
+.mw-s4-profiles-column:nth-child(3) > img {
     transform: translateX(15.5%);
-   }
+}
   
-  .section-4-profiles-column > img {
+.mw-s4-profiles-column > img {
     height: 120px;
     width: 120px;
-    border-radius: 10px;
-  }
+    border-radius: 10px;}
   
-  .section-4-profiles-column:last-child {
+.mw-s4-profiles-column:last-child {
     text-align: right;
-  }
+}
   
-  .section-4-text {
+.mw-s4-text {
     height: 45%;
     width: 120px;
     text-align: center;
-  }
+}
   
-  .section-4-profiles-column:nth-child(4) > .section-4-text {
+.mw-s4-profiles-column:nth-child(4) > .mw-s4-text {
     float: right;
   
-  }
+}
   
-  .section-4-profiles-column:nth-child(2) > .section-4-text {
+.mw-s4-profiles-column:nth-child(2) > .mw-s4-text {
     margin-left: 40px;
-  }
+}
   
-  .section-4-profiles-column:nth-child(3) > .section-4-text {
+.mw-s4-profiles-column:nth-child(3) > .mw-s4-text {
     margin-left: 77px;
-  }
+}
   
-  .section-4-text > .text-name {
+.mw-s4-text > .text-name {
     padding-top: 5px;
     font-size: 20px;
-  }
+}
   
-  .section-4-text > .text-country {
+.mw-s4-text > .text-country {
     font-size: 14px;
-  }
+}
   
   
-  .section-4-text > .text-donated {
+.mw-s4-text > .text-donated {
     margin-top: 5px;
     font-size: 20px;
-  }
+}
   
-  .section-4-text > .text-sum {
+.mw-s4-text > .text-sum {
     font-size: 40px;
     font-weight: 700;
     color: var(--color-1);
-  }
+}
   
