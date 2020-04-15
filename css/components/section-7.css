@@ -74,6 +74,12 @@ textarea {
     resize: none;
 }
 
+textarea::placeholder,
+.mw-s7-right > input#email::placeholder {
+    color: blue;
+    opacity: 0.3;
+}
+
 button {
     padding: 7px;
     margin-left: 10px;
