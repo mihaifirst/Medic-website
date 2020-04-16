@@ -37,10 +37,6 @@
     margin-left: 50px;
 }
 
-.mw-s7-right-content {
-    float: right;
-}
-
 .mw-s7-left > img {
     height: 100%;
     width: 100%;
@@ -54,7 +50,7 @@
 }
 
 .mw-s7-right > input#email,
-textarea {
+.mw-s7-right > textarea {
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -65,7 +61,7 @@ textarea {
 }
 
 .mw-s7-right > input#email{
-    font-size: 50px;
+    font-size: 35px;
 }
 
 textarea {
