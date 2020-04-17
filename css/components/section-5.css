@@ -1,55 +1,55 @@
 #section-5 {
-    position: relative;
-    height: 500px;
-  }
-  
+  position: relative;
+  height: 500px;
+}
+
 .mw-s5-background {
   height: 500px;
-  background: url('/assets/images/intro.jpg');
+  background: url("/assets/images/intro.jpg");
   background-repeat: no-repeat;
-  background-position:center center;
+  background-position: center center;
   background-attachment: fixed;
   background-size: 100%;
   opacity: 0.3;
 }
- .mw-s5-container {
-   position: absolute;
-   height: 300px;
-   width: 80%;
-   top: 10%;
-   left: 10%;
-   margin: 0 auto;
- }
+.mw-s5-container {
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  margin: 0 auto;
+}
 
- .mw-s5-ct-left {
+.mw-s5-ct-left {
   height: 100%;
   width: 50%;
   float: left;
- }
+}
 
- .mw-s5-ct-left > img {
-   height: 100%;
-   width: 100%
- }
+.mw-s5-ct-left > img {
+  height: 100%;
+  width: 100%;
+}
 
- .mw-s5-ct-right {
+.mw-s5-ct-right {
   height: 100%;
   width: 50%;
   float: left;
- }
+}
 
- .mw-s5-ct-right > .mw-s5-ct-title {
+.mw-s5-ct-right > .mw-s5-ct-title {
   font-size: 50px;
   padding-left: 25px;
   font-style: italic;
- }
+}
 
- .mw-s5-ct-right > .mw-s5-ct-text {
+.mw-s5-ct-right > .mw-s5-ct-text {
   padding: 20px 0 0 30px;
   font-size: 24px;
- }
+}
 
- .mw-s5-ct-right > button {
+.mw-s5-ct-right > button {
   background-color: var(--color-2);
   color: #fff;
   padding: 10px;

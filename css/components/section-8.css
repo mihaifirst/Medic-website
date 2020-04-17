@@ -1,7 +1,7 @@
 #section-8 {
-    height: 550px;
-    background-color: var(--dark-color);
-  }
+  height: 550px;
+  background-color: var(--dark-color);
+}
 
 .mw-s8-container {
   height: 80%;
@@ -76,7 +76,7 @@
   font-size: 15px;
 }
 
-.mw-s8-box:nth-child(3) > .mw-s8-content > img{
+.mw-s8-box:nth-child(3) > .mw-s8-content > img {
   height: 100%;
 }
 

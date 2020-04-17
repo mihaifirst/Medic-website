@@ -1,11 +1,11 @@
 :root {
-  --color-1: #17B978;
-  --color-2: #3D5AF1;
-  --text-light: #E5E5E5;
-  --dark-color: #0E153A;
+  --color-1: #17b978;
+  --color-2: #3d5af1;
+  --text-light: #e5e5e5;
+  --dark-color: #0e153a;
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
