@@ -1,33 +1,33 @@
 .mw-s1-navbar {
-    background: var(--dark-color);
-    height: 50px;
+  background: var(--dark-color);
+  height: 50px;
 }
 .mw-s1-navbar-container {
-    width: 900px;
-    margin: 0 auto;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .mw-s1-logo-area {
-    display: inline-block;
-    height: 40px;
+  display: inline-block;
+  height: 40px;
 }
 .mw-s1-logo-area > img {
-    height: 40px;
-    margin-top: 5px;
+  height: 40px;
+  margin-top: 5px;
 }
 
- .mw-s1-menu-navbar {
-    float: right;
-    margin-top: 13px;
+.mw-s1-menu-navbar {
+  float: right;
+  margin-top: 13px;
 }
 .mw-s1-menu-navbar > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .mw-s1-menu-navbar > a > span {
-    color: var( --text-light);
-    margin-left: 20px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+  margin-left: 20px;
+  color: var(--text-light);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
 }

@@ -1,105 +1,102 @@
-
 #section-4 {
-    height: 600px;
-    background-color: white;
-    padding: 0 200px;
-  }
-  
+  height: 600px;
+  background-color: white;
+  padding: 0 200px;
+}
+
 .mw-s4-header {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
 .mw-s4-header > span {
-    padding-bottom: 20px;
-    display: block;
+  padding-bottom: 20px;
+  display: block;
 }
-  
+
 .mw-s4-header > span:nth-child(1) {
-    font-size: 45px;
+  font-size: 45px;
 }
-  
+
 .mw-s4-header > span:nth-child(3) {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-  
+
 .mw-s4-profiles {
-    height: 30%;
-    margin-top: 100px;
-    width: 100%;
+  height: 30%;
+  margin-top: 100px;
+  width: 100%;
 }
-  
+
 .mw-s4-profiles-column {
-    width: 25%;
-    display: inline-block;
-    height: 100%;
-    font-size: 0;
+  width: 25%;
+  display: inline-block;
+  height: 100%;
+  font-size: 0;
 }
-  
-  
+
 .mw-s4-profiles-column {
-    float: left;
+  float: left;
 }
 
 .mw-s4-profiles-column:nth-child(2) > img,
 .mw-s4-profiles-column:nth-child(3) > img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
-  
+
 .mw-s4-profiles-column:nth-child(2) > img {
-    transform: translateX(-15.5%); 
+  transform: translateX(-15.5%);
 }
-  
+
 .mw-s4-profiles-column:nth-child(3) > img {
-    transform: translateX(15.5%);
+  transform: translateX(15.5%);
 }
-  
+
 .mw-s4-profiles-column > img {
-    height: 120px;
-    width: 120px;
-    border-radius: 10px;}
-  
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
 .mw-s4-profiles-column:last-child {
-    text-align: right;
+  text-align: right;
 }
-  
+
 .mw-s4-text {
-    height: 45%;
-    width: 120px;
-    text-align: center;
+  height: 45%;
+  width: 120px;
+  text-align: center;
 }
-  
+
 .mw-s4-profiles-column:nth-child(4) > .mw-s4-text {
-    float: right;
-  
+  float: right;
 }
-  
+
 .mw-s4-profiles-column:nth-child(2) > .mw-s4-text {
-    margin-left: 40px;
+  margin-left: 40px;
 }
-  
+
 .mw-s4-profiles-column:nth-child(3) > .mw-s4-text {
-    margin-left: 77px;
+  margin-left: 77px;
 }
-  
+
 .mw-s4-text > .text-name {
-    padding-top: 5px;
-    font-size: 20px;
+  padding-top: 5px;
+  font-size: 20px;
 }
-  
+
 .mw-s4-text > .text-country {
-    font-size: 14px;
+  font-size: 14px;
 }
-  
-  
+
 .mw-s4-text > .text-donated {
-    margin-top: 5px;
-    font-size: 20px;
+  margin-top: 5px;
+  font-size: 20px;
 }
-  
+
 .mw-s4-text > .text-sum {
-    font-size: 40px;
-    font-weight: 700;
-    color: var(--color-1);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-1);
 }
-  

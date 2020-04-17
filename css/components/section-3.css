@@ -1,69 +1,67 @@
-
 #section-3 {
-    height: 700px;
-    padding: 100px 200px 0;
-    background-color: white;
-  }
-  
-  .mw-s3-header {
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  .mw-s3-header > span {
-    display: block;
-    padding-bottom: 40px;
-  }
-  
-  .mw-s3-header > span:nth-child(1) {
-    font-size: 48px;
-  }
-  
-  .mw-s3-body {
-    height: 300px;
-    width: 100%;
-    padding-top: 100px;
-  }
-  
-  .mw-s3-body-left,
-  .mw-s3-body-right {
-    height: 100%;
-    width: 50%;
-  }
+  height: 700px;
+  padding: 100px 200px 0;
+  background-color: white;
+}
 
-  .mw-s3-body-left {
-    display: inline-block;
-  }
-  
-  .mw-s3-body-right {
-    float: right;
-  }
-  
-  .mw-s3-body-left > .mw-s3-body-left-image,
-  .mw-s3-body-right > .mw-s3-body-right-image {
-        height: 70%;
-        width: 70%;
-        margin: auto;
-  }
-  
-  .mw-s3-body-left > .mw-s3-body-left-image > img,
-  .mw-s3-body-right > .mw-s3-body-right-image > img {  
-    width: 100%;
-    height: 100%;
-  }
-  
-  .mw-s3-body-left-text,
-  .mw-s3-body-right-text {
-    height: 30%;
-    width: 70%;
-    margin: auto;
-  }
-  
-  .mw-s3-body-left-text > span:nth-child(1),
-  .mw-s3-body-right-text > span:nth-child(1) {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-weight: 700;
-  }
-  
+.mw-s3-header {
+  text-align: center;
+  font-size: 18px;
+}
+
+.mw-s3-header > span {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.mw-s3-header > span:nth-child(1) {
+  font-size: 48px;
+}
+
+.mw-s3-body {
+  height: 300px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.mw-s3-body-left,
+.mw-s3-body-right {
+  height: 100%;
+  width: 50%;
+}
+
+.mw-s3-body-left {
+  display: inline-block;
+}
+
+.mw-s3-body-right {
+  float: right;
+}
+
+.mw-s3-body-left > .mw-s3-body-left-image,
+.mw-s3-body-right > .mw-s3-body-right-image {
+  height: 70%;
+  width: 70%;
+  margin: auto;
+}
+
+.mw-s3-body-left > .mw-s3-body-left-image > img,
+.mw-s3-body-right > .mw-s3-body-right-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.mw-s3-body-left-text,
+.mw-s3-body-right-text {
+  height: 30%;
+  width: 70%;
+  margin: auto;
+}
+
+.mw-s3-body-left-text > span:nth-child(1),
+.mw-s3-body-right-text > span:nth-child(1) {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
