@@ -14,11 +14,8 @@
 }
 
 .mw-s7-container {
-<<<<<<< HEAD
-=======
   display: flex;
   justify-content: space-between;
->>>>>>> flexbox
   position: absolute;
   height: 300px;
   width: 80%;

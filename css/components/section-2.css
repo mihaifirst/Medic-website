@@ -4,12 +4,6 @@
   background-color: white;
 }
 
-<<<<<<< HEAD
-.mw-s2-container-left {
-  height: 250px;
-  width: 50%;
-  display: inline-block;
-=======
 .section-2-container {
   display: flex;
   height: 200px;
@@ -20,7 +14,6 @@
 .mw-s2-container-right {
   height: 100%;
   width: 48%;
->>>>>>> flexbox
 }
 
 .mw-s2-container-left > img {
