@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" type="text/css" href="/css/components/navbar.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/components/helpers.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/section-1.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/section-2.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/section-3.css" />
@@ -23,7 +24,6 @@
     <!-- Navbar-->
     <section id="section-1">
       <div class="mw-s1-navbar">
-        <div class="mw-s1-navbar-container">
           <div class="mw-s1-logo-area">
             <img src="/assets/images/Star_of_life2.svg" alt="Sigla Ambulanta" />
           </div>
@@ -34,7 +34,6 @@
             <a href="#"><span>About</span></a>
             <a href="#"><span>Contact</span></a>
           </div>
-        </div>
       </div>
       <!--Container-->
       <div class="mw-s1-background"></div>
@@ -42,25 +41,27 @@
     </section>
     <!--Section 2-->
     <section id="section-2">
-      <div class="mw-s2-container-left">
-        <img src="/assets/images/section2.jpg" />
-      </div>
-      <div class="mw-s2-container-right">
-        <div class="mw-s2-question">Who are we?</div>
-        <div class="mw-s2-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          neque dignissimos, ad odit voluptas eum sint ipsam ducimus. Incidunt
-          at inventore ut eaque, obcaecati exercitationem vel eius numquam
-          repellat quos.
+      <div class="section-2-container">
+        <div class="mw-s2-container-left">
+          <img src="/assets/images/section2.jpg" />
         </div>
-        <button>Learn More</button>
+        <div class="mw-s2-container-right">
+          <div class="mw-s2-question">Who are we?</div>
+          <div class="mw-s2-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            neque dignissimos, ad odit voluptas eum sint ipsam ducimus. Incidunt
+            at inventore ut eaque, obcaecati exercitationem vel eius numquam
+            repellat quos.
+          </div>
+          <button>Learn More</button>
+        </div>
       </div>
       <div class="mw-s2-container-bottom">
         <div class="mw-s2-box">
           <div class="mw-s2-icon">
             <img src="assets/images/healthCare-512.png" />
           </div>
-          <div class="mw-s2-text">
+          <div class="mw-s2-box-text">
             <span>Our mission</span>
             <span
               >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span
@@ -72,7 +73,7 @@
           <div class="mw-s2-icon">
             <img src="assets/images/healthCare-512.png" />
           </div>
-          <div class="mw-s2-text">
+          <div class="mw-s2-box-text">
             <span>Our mission</span>
             <span
               >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span
@@ -84,7 +85,7 @@
           <div class="mw-s2-icon">
             <img src="assets/images/healthCare-512.png" />
           </div>
-          <div class="mw-s2-text">
+          <div class="mw-s2-box-text">
             <span>Our mission</span>
             <span
               >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span
@@ -102,16 +103,15 @@
           >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
           culpa omnis necessitatibus placeat aliquam cupiditate sequi natus
           ducimus nesciunt ut unde eum, repudiandae praesentium! Cupiditate
-          laboriosam incidunt ut eum? Mollitia.</span
-        >
+          laboriosam incidunt ut eum? Mollitia.</span>
         <a href="#"><span>See all sponsors</span></a>
       </div>
       <div class="mw-s3-body">
-        <div class="mw-s3-body-left">
-          <div class="mw-s3-body-left-image">
+        <div class="mw-s3-container">
+          <div class="mw-s3-container-image">
             <img src="assets/images/download.jpg" />
           </div>
-          <div class="mw-s3-body-left-text">
+          <div class="mw-s3-container-info">
             <span>Lorem Ipsum is simple</span>
             <span
               >Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -119,11 +119,11 @@
             >
           </div>
         </div>
-        <div class="mw-s3-body-right">
-          <div class="mw-s3-body-right-image">
+        <div class="mw-s3-container">
+          <div class="mw-s3-container-image">
             <img src="assets/images/aparatura.jpg" />
           </div>
-          <div class="mw-s3-body-right-text">
+          <div class="mw-s3-container-info">
             <span>Lorem Ipsum is simple</span>
             <span
               >Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -195,55 +195,53 @@
           <div class="mw-s5-ct-title">Success stories</div>
           <div class="mw-s5-ct-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            neque dignissimos, ad odit voluptas eum sint ipsam ducimus. Incidunt
-            at inventore ut eaque, obcaecati exercitationem vel eius numquam
-            repellat quos.
+            neque dignissimos, ad odit voluptas eum sint ipsam ducimus.
           </div>
-          <button>Learn More</button>
+          <button class="learn-more">Learn More</button>
         </div>
       </div>
     </section>
     <!--Section 6-->
     <section id="section-6">
       <div class="mw-s6-header">Latest News</div>
-      <div class="mw-s6-container-images">
-        <div class="mw-s6-image">
-          <img src="assets/images/download.jpg">
+      <div class="mw-s6-container">
+        <div class="mw-s6-container-images">
+          <div class="mw-s6-image">
+            <img src="assets/images/download.jpg">
+          </div>
+          <div class="mw-s6-text">
+            <div class="mw-s6-text-title">Lorem ipsum is a simply text</div>
+            <div class="mw-s6-text-date">04 April, 2020</div>
+            <div class="mw-s6-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ad eligendi, dolores officia, harum minima est hic voluptas repudiandae sequi</div>
+            <div class="mw-s6-text-readmore">Read more</div>
+          </div>
         </div>
-        <div class="mw-s6-image">
-          <img src="assets/images/download.jpg">
+        <div class="mw-s6-container-images">
+          <div class="mw-s6-image">
+            <img src="assets/images/download.jpg">
+          </div>
+          <div class="mw-s6-text">
+            <div class="mw-s6-text-title">Lorem ipsum is a simply text</div>
+            <div class="mw-s6-text-date">04 April, 2020</div>
+            <div class="mw-s6-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ad eligendi, dolores officia, harum minima est hic voluptas repudiandae sequi</div>
+            <div class="mw-s6-text-readmore">Read more</div>
+          </div>
         </div>
-        <div class="mw-s6-image">
-          <img src="assets/images/download.jpg">
+        <div class="mw-s6-container-images">
+          <div class="mw-s6-image">
+            <img src="assets/images/download.jpg">
+          </div>
+          <div class="mw-s6-text">
+            <div class="mw-s6-text-title">Lorem ipsum is a simply text</div>
+            <div class="mw-s6-text-date">04 April, 2020</div>
+            <div class="mw-s6-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ad eligendi, dolores officia, harum minima est hic voluptas repudiandae sequi</div>
+            <div class="mw-s6-text-readmore">Read more</div>
+          </div>
         </div>
       </div>
-      <div class="mw-s6-container-text">
-        <div class="mw-s6-image-text">
-          <div class="mw-s6-text">
-            <div class="mw-s6-text-title">Lorem ipsum is a simply text</div>
-            <div class="mw-s6-text-date">04 April, 2020</div>
-            <div class="mw-s6-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ad eligendi, dolores officia, harum minima est hic voluptas repudiandae sequi</div>
-            <div class="mw-s6-text-readmore">Read more</div>
-          </div>
-        </div>
-        <div class="mw-s6-image-text">
-          <div class="mw-s6-text">
-            <div class="mw-s6-text-title">Lorem ipsum is a simply text</div>
-            <div class="mw-s6-text-date">04 April, 2020</div>
-            <div class="mw-s6-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Ad eligendi, dolores officia, harum minima est hic voluptas repudiandae sequi</div>
-            <div class="mw-s6-text-readmore">Read more</div>
-          </div>
-        </div>
-        <div class="mw-s6-image-text">
-          <div class="mw-s6-text">
-            <div class="mw-s6-text-title">Lorem ipsum is a simply text</div>
-            <div class="mw-s6-text-date">04 April, 2020</div>
-            <div class="mw-s6-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ad eligendi, dolores officia, harum minima est hic voluptas repudiandae sequi</div>
-            <div class="mw-s6-text-readmore">Read more</div>
-          </div>
         </section>    
     <!--Section 7-->
   <section id="section-7">
@@ -256,7 +254,7 @@
             <div class="mw-s7-title">Contact Us</div>
             <input type="email" id="email" placeholder="Enter your email">
             <textarea rows="5" cols="40" name="message" placeholder="Enter your message"></textarea>
-            <button>Learn More</button>
+            <button class="send">Send</button>
         </div>
       </div>
   </section>
@@ -267,7 +265,7 @@
           <div class="mw-s8-title"> ABOUT US</div>
           <div class="mw-s8-text">Lorem Ipsum is simply 
             dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </div>
           <div class="mw-s8-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
           <div class="mw-s8-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.

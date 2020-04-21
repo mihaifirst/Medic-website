@@ -14,6 +14,11 @@
 }
 
 .mw-s7-container {
+<<<<<<< HEAD
+=======
+  display: flex;
+  justify-content: space-between;
+>>>>>>> flexbox
   position: absolute;
   height: 300px;
   width: 80%;
@@ -24,24 +29,20 @@
 
 .mw-s7-left,
 .mw-s7-right {
-  float: left;
   height: 100%;
-}
-
-.mw-s7-left {
-  width: calc(50% - 50px);
-}
-
-.mw-s7-right {
-  width: 50%;
-  margin-left: 50px;
+  width: 48%;
 }
 
 .mw-s7-left > img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
+.mw-s7-right {
+  display: flex;
+  flex-direction: column;
+}
 .mw-s7-title {
   padding-bottom: 20px;
   font-size: 30px;
@@ -51,7 +52,6 @@
 
 .mw-s7-right > input#email,
 .mw-s7-right > textarea {
-  display: block;
   width: 100%;
   margin-bottom: 20px;
   border: 5px solid var(--color-2);
@@ -60,8 +60,10 @@
   box-sizing: border-box;
 }
 
-.mw-s7-right > input#email {
-  font-size: 35px;
+.mw-s7-right > input#email,
+.mw-s7-right > textarea {
+  font-size: 25px;
+  padding: 5px 20px;
 }
 
 textarea {
@@ -76,9 +78,11 @@ textarea::placeholder,
   opacity: 0.3;
 }
 
-button {
-  padding: 7px;
-  margin-left: 10px;
+.mw-s7-right > button {
+  height: 40px;
+  width: 120px;
   background-color: var(--color-2);
   color: #fff;
+  font-weight: bold;
+  font-size: 20px;
 }
