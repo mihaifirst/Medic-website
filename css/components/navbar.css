@@ -1,14 +1,19 @@
 .mw-s1-navbar {
   background: var(--dark-color);
+  position: fixed;
   height: 50px;
+  width: 100%;
+  z-index: 3;
 }
+
 .mw-s1-navbar-container {
-  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
   margin: 0 auto;
 }
 
 .mw-s1-logo-area {
-  display: inline-block;
   height: 40px;
 }
 .mw-s1-logo-area > img {
@@ -17,9 +22,9 @@
 }
 
 .mw-s1-menu-navbar {
-  float: right;
-  margin-top: 13px;
+  margin: 13px 0px;
 }
+
 .mw-s1-menu-navbar > a {
   text-decoration: none;
 }
@@ -30,4 +35,31 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
+}
+
+.mw-s1-navbar-container > .hamburger-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mw-s1-navbar-container {
+    margin: 0 30px;
+  }
+
+  .mw-s1-navbar-container > .hamburger-icon {
+    display: block;
+    width: 32px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .mw-s1-navbar-container > .hamburger-icon > img {
+    width: 100%;
+  }
+
+  .mw-s1-navbar-container > .mw-s1-menu-navbar {
+    display: none;
+  }
 }

@@ -20,3 +20,12 @@
   left: 15%;
   font-size: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .mw-s1-header {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 52px;
+  }
+}
