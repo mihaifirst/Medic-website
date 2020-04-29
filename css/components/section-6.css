@@ -59,3 +59,13 @@
   padding: 20px 0;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .mw-s6-header {
+    text-align: center;
+  }
+
+  .mw-s6-container {
+    height: 1000px;
+  }
+}

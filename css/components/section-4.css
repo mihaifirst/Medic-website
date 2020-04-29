@@ -53,7 +53,7 @@
 }
 
 .mw-s4-text > .text-name,
-.mw-s4-text > .text-donated {
+.text-inline > .text-donated {
   font-size: 20px;
   margin-top: 10px;
 }
@@ -62,8 +62,76 @@
   font-size: 14px;
 }
 
-.mw-s4-text > .text-sum {
+.text-inline > .text-sum {
   font-size: 40px;
   font-weight: 700;
   color: var(--color-1);
+}
+
+.mw-s4-sponsors {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #section-4 {
+    height: 100%;
+    padding: 0 30px;
+  }
+
+  .mw-s4-header > a {
+    display: none;
+  }
+
+  .mw-s4-header {
+    height: 150px;
+  }
+
+  .mw-s4-profiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 1150px;
+    margin-top: 50px;
+  }
+
+  .mw-s4-profiles-column {
+    width: 330px;
+    text-align: center;
+  }
+
+  .mw-s4-profiles-column > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+
+  .mw-s4-profiles-column > .mw-s4-text {
+    margin: 0 auto;
+  }
+
+  .mw-s4-text {
+    width: 170px;
+  }
+
+  .mw-s4-text > .text-name,
+  .mw-s4-text > .text-country {
+    font-size: 20px;
+  }
+
+  .text-inline {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .text-inline > .text-donated {
+    margin-right: 30px;
+  }
+
+  .mw-s4-sponsors {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+  }
 }

@@ -20,10 +20,12 @@
     <link rel="stylesheet" type="text/css" href="/css/components/section-7.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/section-8.css" />
   </head>
+
   <body>
     <!-- Navbar-->
     <section id="section-1">
       <div class="mw-s1-navbar">
+        <div class="mw-s1-navbar-container" >
           <div class="mw-s1-logo-area">
             <img src="/assets/images/Star_of_life2.svg" alt="Sigla Ambulanta" />
           </div>
@@ -34,6 +36,10 @@
             <a href="#"><span>About</span></a>
             <a href="#"><span>Contact</span></a>
           </div>
+          <div class="hamburger-icon">
+            <img src="/assets/images/hamburger-icon.png" alt="hamburger-icon" />
+          </div>
+        </div>
       </div>
       <!--Container-->
       <div class="mw-s1-background"></div>
@@ -42,10 +48,10 @@
     <!--Section 2-->
     <section id="section-2">
       <div class="section-2-container">
-        <div class="mw-s2-container-left">
+        <div class="mw-s2-container">
           <img src="/assets/images/section2.jpg" />
         </div>
-        <div class="mw-s2-container-right">
+        <div class="mw-s2-container">
           <div class="mw-s2-question">Who are we?</div>
           <div class="mw-s2-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
@@ -53,7 +59,9 @@
             at inventore ut eaque, obcaecati exercitationem vel eius numquam
             repellat quos.
           </div>
-          <button>Learn More</button>
+          <div>
+            <button class="learn-more">Learn More</button>
+          </div>
         </div>
       </div>
       <div class="mw-s2-container-bottom">
@@ -64,8 +72,7 @@
           <div class="mw-s2-box-text">
             <span>Our mission</span>
             <span
-              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span
-            >
+              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
             <a href="#"><span>Learn more</span></a>
           </div>
         </div>
@@ -76,8 +83,7 @@
           <div class="mw-s2-box-text">
             <span>Our mission</span>
             <span
-              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span
-            >
+              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
             <a href="#"><span>Learn more</span></a>
           </div>
         </div>
@@ -107,19 +113,17 @@
         <a href="#"><span>See all sponsors</span></a>
       </div>
       <div class="mw-s3-body">
-        <div class="mw-s3-container">
+        <div class="shadow-light mw-s3-container" >
           <div class="mw-s3-container-image">
             <img src="assets/images/download.jpg" />
           </div>
           <div class="mw-s3-container-info">
             <span>Lorem Ipsum is simple</span>
-            <span
-              >Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.</span
-            >
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.</span>
           </div>
         </div>
-        <div class="mw-s3-container">
+        <div class="shadow-light mw-s3-container">
           <div class="mw-s3-container-image">
             <img src="assets/images/aparatura.jpg" />
           </div>
@@ -132,6 +136,9 @@
           </div>
         </div>
       </div>
+      <div class="mw-s3-sponsors">
+        <a href="#"><span>See all sponsors</span></a>
+      </div>
     </div>
     </section>
     <!--Section 4-->
@@ -143,7 +150,7 @@
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s.
         </span>
-        <span>See all donators</span>
+        <a href="#"><span>See all donators</span></a>
       </div>
       <div class="mw-s4-profiles">
         <div class="mw-s4-profiles-column">
@@ -151,8 +158,10 @@
           <div class="mw-s4-text">
             <div class="text-name">Alex Varzaru</div>
             <div class="text-country">Romania</div>
-            <div class="text-donated">Donated</div>
-            <div class="text-sum">366$</div>
+            <div class="text-inline">
+              <div class="text-donated">Donated</div>
+              <div class="text-sum">366$</div>
+            </div>
           </div>
         </div>
         <div class="mw-s4-profiles-column">
@@ -160,8 +169,10 @@
           <div class="mw-s4-text">
             <div class="text-name">Alex Varzaru</div>
             <div class="text-country">Romania</div>
-            <div class="text-donated">Donated</div>
-            <div class="text-sum">423$</div>
+            <div class="text-inline">
+              <div class="text-donated">Donated</div>
+              <div class="text-sum">67$</div>
+            </div>
           </div>
         </div>
         <div class="mw-s4-profiles-column">
@@ -169,8 +180,10 @@
           <div class="mw-s4-text">
             <div class="text-name">Alex Varzaru</div>
             <div class="text-country">Romania</div>
-            <div class="text-donated">Donated</div>
-            <div class="text-sum">28$</div>
+            <div class="text-inline">
+              <div class="text-donated">Donated</div>
+              <div class="text-sum">450$</div>
+            </div>
           </div>
         </div>
         <div class="mw-s4-profiles-column">
@@ -178,28 +191,35 @@
           <div class="mw-s4-text">
             <div class="text-name">Alex Varzaru</div>
             <div class="text-country">Romania</div>
-            <div class="text-donated">Donated</div>
-            <div class="text-sum">71$</div>
+            <div class="text-inline">
+              <div class="text-donated">Donated</div>
+              <div class="text-sum">523$</div>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="mw-s4-sponsors">
+        <a href="#"><span>See all sponsors</span></a>
       </div>
     </section>
     <!--Section 5-->
     <section id="section-5">
-      <div class="mw-s5-background"></div>
       <div class="mw-s5-container">
-        <div class="mw-s5-ct-left">
+        <div class="mw-s5-container-content">
           <img src="assets/images/download.jpg">
         </div>
-        <div class="mw-s5-ct-right">
+        <div class="mw-s5-container-content">
           <div class="mw-s5-ct-title">Success stories</div>
           <div class="mw-s5-ct-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
             neque dignissimos, ad odit voluptas eum sint ipsam ducimus.
           </div>
-          <button class="learn-more">Learn More</button>
+          <div>
+            <button class="learn-more">Learn More</button>
+          </div>
         </div>
       </div>
+      <div class="mw-s5-background"></div>
     </section>
     <!--Section 6-->
     <section id="section-6">
